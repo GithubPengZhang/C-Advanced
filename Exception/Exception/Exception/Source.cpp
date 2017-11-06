@@ -4,8 +4,6 @@ using namespace std;
 
 //Press Ctrl + F5 to console
 
-//some changes
-
 void GoWrong() {
 	bool bErr1 = true;
 	bool bErr2 = false;
