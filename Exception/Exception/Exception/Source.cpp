@@ -4,9 +4,7 @@ using namespace std;
 
 //Press Ctrl + F5 to console
 
-//changes to branch pz
-
-//change to another stage commit
+//remove all changes
 
 void GoWrong() {
 	bool bErr1 = true;
