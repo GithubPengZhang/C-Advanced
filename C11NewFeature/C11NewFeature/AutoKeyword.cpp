@@ -1,8 +1,9 @@
+#if 0
 #include <iostream>
 using namespace std;
 
 template <class T>
-auto test(T value1 ) -> T {
+auto test(T value1) -> T {
 	return value1;
 }
 
@@ -19,7 +20,7 @@ int main() {
 	cout << text << endl;
 
 	cout << "---------" << endl;
-	
+
 	cout << retInt() << endl;
 
 	cout << "---------" << endl;
@@ -35,3 +36,4 @@ int main() {
 
 	return 0;
 }
+#endif // 0
