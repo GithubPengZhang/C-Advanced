@@ -147,6 +147,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AutoKeyword.cpp" />
+    <ClCompile Include="Lambda.cpp" />
     <ClCompile Include="MakeingClassIterable.cpp" />
   </ItemGroup>
   <ItemGroup>

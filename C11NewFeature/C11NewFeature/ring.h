@@ -1,3 +1,4 @@
+#if 0
 #pragma once
 #include <iostream>
 using namespace std;
@@ -81,3 +82,4 @@ public:
 
 
 };
+#endif

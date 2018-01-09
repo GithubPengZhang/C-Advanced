@@ -1,3 +1,4 @@
+#if 0
 #include <iostream>
 #include "ring.h"
 #include <string>
@@ -13,7 +14,7 @@ int main()
 	textring.add("three");
 
 	//c++98 style
-	for (Ring<string>::iterator it=textring.begin(); it!=textring.end(); it++)
+	for (Ring<string>::iterator it = textring.begin(); it != textring.end(); it++)
 	{
 		cout << (*it) << endl;
 	}
@@ -21,7 +22,7 @@ int main()
 	cout << "-------" << endl;
 
 	//c++11 style
-	for (auto text: textring)
+	for (auto text : textring)
 	{
 		cout << text << endl;
 	}
@@ -29,3 +30,4 @@ int main()
 
 	return 0;
 }
+#endif // 0
