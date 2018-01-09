@@ -147,6 +147,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AutoKeyword.cpp" />
+    <ClCompile Include="Lambda.cpp" />
+    <ClCompile Include="MakeingClassIterable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ring.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
